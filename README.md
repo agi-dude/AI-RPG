@@ -4,6 +4,6 @@ A killer RPG game with event tracking, world creation, proper combat and invento
 ## Setup
  - Setup ollama
  - If your ollama host is running on another host, change game.py to reflect that
- - `pip install -r requirements`
+ - `pip install ollama`
  - `python game.py`
  - \~Enjoy\~
