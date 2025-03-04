@@ -890,8 +890,8 @@ class AITextRPG:
         os.system('cls' if os.name == 'nt' else 'clear')
 
 def main():
-    """Main function to run the game."""
-    game = AITextRPG()
+    """Main function to run the game."""    
+    game = AITextRPG(ollama_host=os.getenv('OLLAMA_HOST', "http://localhost:11434"))
     try:
         game.setup_game()
     except KeyboardInterrupt:
